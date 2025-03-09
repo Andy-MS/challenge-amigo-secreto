@@ -33,3 +33,19 @@ function actualizarLista(){ //Se declara función para la lista
     }
 
 }
+
+function sortearAmigo(){
+    const resultadoElement = document.getElementById('resultado'); //Obtener el elemento del resultado
+    //Validar que el array amigos no este vacío
+    if (amigos.lenth === 0){
+        resultadoElement.innerHTML = "No hay amigos para sortear.";//Mostar mensaje en el elemento
+        return;//Salir de la función
+    }
+    
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length); //Generar un índice aleatorio
+    const amigoSorteado = amigos [indiceAleatorio]; //Obtener el amigo sorteado
+    console.log ("Amigo Sorteado:" + amigoSorteado);//mostrar amigo sorteado en consola
+    resultadoElement.innerHTML = "El amigo sorteado es " + amigoSorteado;// Actualizar elemento
+
+
+}
