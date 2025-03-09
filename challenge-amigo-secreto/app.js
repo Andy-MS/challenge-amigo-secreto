@@ -16,7 +16,11 @@ function agregarAmigo (){
             actualizarLista(); //Se llama a la función 
             console.log("Amigo agregado: " + nombreAmigo);
             console.log(amigos);
-            document.getElementById('amigo').value = ""; //
+            document.getElementById('amigo').value = ""; //Limpiar campo de entrada
+
+            //Reiniciar contenido del campo resultado
+            const resultadoElement = document.getElementById('resultado');//Obtener el elemento de resultado
+            resultadoElement.innerHTML = ""; //Limpiar contenido de resultado
         }
 }
 
@@ -37,7 +41,7 @@ function actualizarLista(){ //Se declara función para la lista
 function sortearAmigo(){
     const resultadoElement = document.getElementById('resultado'); //Obtener el elemento del resultado
     //Validar que el array amigos no este vacío
-    if (amigos.lenth === 0){
+    if (amigos.length === 0){
         resultadoElement.innerHTML = "No hay amigos para sortear.";//Mostar mensaje en el elemento
         return;//Salir de la función
     }
