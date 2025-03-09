@@ -1,6 +1,6 @@
 # Challenge del amigo secreto
 
-![Amigo secreto](challenge-amigo-secreto/assets/amigo-secreto.png)
+![Amigo secreto](https://github.com/Andy-MS/challenge-amigo-secreto/blob/main/challenge-amigo-secreto/assets/amigo-secreto.png?raw=true)
 
 #### :checkered_flag: Estado del proyecto: finalizado :checkered_flag:
 
@@ -20,7 +20,7 @@ En este desafío, desarrollarás una aplicación que permita a los usuarios ingr
    - Navega a la carpeta del proyecto y abre el archivo `index.html` en tu navegador web.
 
 3. **Agregar un amigo**:
-   - Escribe el nombre de un amigo en el campo de entrada.
+   - Escribe el nombre de un amigo en el campo de entrada "Escribir nombre".
    - Haz clic en el botón "Agregar Amigo" para añadirlo a la lista.
    - Si no ingresas un nombre, aparecerá un `alert` pidiendo que ingreses un nombre.
 
@@ -29,7 +29,7 @@ En este desafío, desarrollarás una aplicación que permita a los usuarios ingr
 
 5. **Sortear un amigo**:
    - Haz clic en el botón "Sortear Amigo" para seleccionar aleatoriamente un amigo de la lista.
-   - Si no hay amigos en la lista, se mostrará un mensaje indicando que no hay amigos disponibles para sortear.- Instrucciones de uso: Se debe digitar el nombre de un amigo en el campo blanco con la leyenda "Escribe el nombre"
+   - Si no hay amigos en la lista, se mostrará un mensaje indicando que no hay amigos disponibles para sortear.- Instrucciones de uso: 
 
 ## :open_file_folder: Funcionalidades del proyecto
 
