@@ -2,7 +2,7 @@
 
 ![Amigo secreto](https://github.com/Andy-MS/challenge-amigo-secreto/blob/main/assets/amigo-secreto.png)
 
-#### :checkered_flag: Estado del proyecto: finalizado :checkered_flag:
+## :checkered_flag: Estado del proyecto: FINALIZADO :checkered_flag:
 
 ## Descripción
 
