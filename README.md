@@ -1,6 +1,6 @@
 # Challenge del amigo secreto
 
-![Amigo secreto](https://github.com/Andy-MS/challenge-amigo-secreto/blob/main/challenge-amigo-secreto/assets/amigo-secreto.png?raw=true)
+![Amigo secreto](https://github.com/Andy-MS/challenge-amigo-secreto/blob/main/assets/amigo-secreto.png)
 
 #### :checkered_flag: Estado del proyecto: finalizado :checkered_flag:
 
